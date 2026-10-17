@@ -1,1 +1,7 @@
-FaceVault model files are stored in this folder.
+## FaceVault Models
+
+The face recognition model `face_recognition_sface_2021dec.onnx` is required to run FaceVault but is not included in this repository because of its file size.
+
+Download the official SFace model from the [OpenCV Zoo SFace repository](https://github.com/opencv/opencv_zoo/tree/main/models/face_recognition_sface).
+
+Place the downloaded ONNX file in this `models` folder using the filename expected by the application.
